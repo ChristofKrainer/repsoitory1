@@ -24,7 +24,7 @@ class Sportwagen extends Auto{
             $this->setGeschwindigkeit($this->getGeschwindigkeit() - $aenderung);
         }
         
-    }
+    }//Test
 }
 
 
