@@ -23,8 +23,7 @@ class Sportwagen extends Auto{
         else {
             $this->setGeschwindigkeit($this->getGeschwindigkeit() - $aenderung);
         }
-        echo "Die aktuelle Geschwindigkeit des Sportwagens beträgt "
-            .$this->getGeschwindigkeit() ."<br />";
+        
     }
 }
 
